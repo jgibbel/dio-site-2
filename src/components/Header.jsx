@@ -14,7 +14,7 @@ export default function Header() {
           download
           aria-label="Download Completeness as PDF"
         >
-          Download PDF
+          ↓ PDF
         </a>
       </div>
     </header>
