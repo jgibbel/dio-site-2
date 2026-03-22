@@ -1,0 +1,34 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-bg: #F7F1E2;
+  --color-surface: #F7F1E2;
+  --color-text: #1a1a1a;
+  --color-muted: #6b6457;
+  --color-accent: #3d2b1f;
+  --color-border: #d4c9b8;
+  --header-height: 100px;
+  --font-serif: 'Georgia', 'Times New Roman', serif;
+  --font-sans: system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  min-height: 100dvh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
