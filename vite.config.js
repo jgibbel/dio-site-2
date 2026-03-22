@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/diovanna-2/',
+  base: '/dio-site-2/',
 })
